@@ -1,0 +1,101 @@
+1. ¿Qué diferencia existe entre <h1> y <h2>?
+El tamaño de encabezados y el nivel jerarquico
+2. ¿Cuántos niveles de encabezados existen en HTML?
+Existen 6 niveles
+3. ¿Es recomendable utilizar <h1> solamente para cambiar el tamaño del texto? ¿Por qué?
+No. En caso de ocuparlo de mala forma, los navegadores no podran relacionar la pagina en la categoria correcta (Los encabezados tiene un significado semantico)
+
+Listas máximo 5 anidadas
+
+1. ¿Qué significa <ul>?
+Unordered List (Lista no ordenada), sirve para crear listas con elementos que no requieren un orden y se utilizan viñetas
+2. ¿Qué significa <ol>?
+Ordered LisT (lista ordenada) sirve para crear listas que requieren un orden y normalmente van enumerados
+3. ¿Para qué sirve <li>?
+List Item (elemento de lista) se utiliza para definir los elementos que integraran las listas tanto en <ul> como <ol>
+4. ¿Cuál es la diferencia entre una lista ordenada y una lista no ordenada?
+Una muestra elementos sin orden aparente y la otra si, dandole una jerarquia de importancia.
+5. ¿En qué situación utilizarías <ul>?
+Cuando los elementos de una lista no necesitan un orden.
+6. ¿En qué situación utilizarías <ol>?
+Cuando los elementos de una lista necesitan un orden y/o jerarquia (como lo es una receta)
+7. ¿Es posible colocar una lista dentro de otra lista? Investiga cómo se realiza y si es posible integralo en tu CV.
+Si, se le conoce como lista anidada. Se coloca otra <ul> u <ol> con sus respectivos elementos
+
+
+¿Para que sirve src? Es una abreviación de Source, indica la ubicación de un archivo o recurso
+
+¿para que sirve alt? Abreviatura de Alternative Text, como su nombre lo dice plantea un texto alternativo a una imagen (describe la imagen)
+¿Qué sucede si la imagen no puede cargarse? El navegador no mostrara la imagen, unicamente el logo de una imagen rota, solo si tiene alt agregado mostrara el texto alternativo
+
+¿Qué diferencia existe entre alt y title?
+alt da accesibilidad y en caso de que no pueda cargarse la imagen funciona como alternativa, title solo proporciona información adicional sobre un elemento que solo aparecera si se apunta a la imagen
+
+					ID
+				
+1. ¿Para qué sirve el atributo id?
+Proporciona un identificador único
+
+2. ¿Qué significa href="#acerca"?
+Es un apuntador a una dirección dentro de la misma página (debe de tener un id="acerca")
+
+3. ¿Qué ocurre cuando se selecciona ese enlace?
+Se desplaza a el elemento que tiene el id
+
+4. ¿Puede haber dos elementos con el mismo id? Investiga.
+No, ya que puede causar ambigüedad y porque deben identificar de forma única a un elemento. Repetirlos puede causar comportamientos inesperados o conflictos con CSS, JavaScript y enlaces internos
+
+5. ¿Cómo se puede crear un enlace hacia otra parte de la misma página?
+Se puede crear utilizando un id en utilizando un <a href="#id"> (el # indica que esta dentro de la misma pagina)
+
+				Tablas
+<tr> (Table row) es
+<th> (Table header)
+<td> (table data)
+
+1. ¿Para qué sirve <table>?
+Para crear tablas y dentro de la etiqueta se modifica el estilo, bordes, fuente, alineación, etc....
+2. ¿Qué representa <tr>?
+(fila de tablas) su funcionn es presentar una fila de celdas
+
+3. ¿Qué diferencia existe entre <th> y <td>?
+La diferencia son las funciones, <th> es para escribir encabezados en una tabla y <td> es de datos comúnes
+
+4. ¿Qué representa una fila?
+<tr> se encarga de mostrar las filas
+
+5. ¿Qué representa una columna?
+<th> se encarga de las columnas
+
+6. ¿En qué situaciones es adecuado utilizar una tabla?
+Es a consideración del desarrollador considerando las necesidades y la información
+
+7. ¿Sería correcto utilizar una tabla únicamente para acomodar visualmente una página? Explica.
+NO, las tablas son unicamente para acomodar información
+
+				Organización
+1. ¿Qué significa que una etiqueta sea semántica?
+Significa que le etiqueta describe el significado o función del contenido que contiene
+2. ¿Para qué sirve <header>?
+Sirve pata contener el encabezado o información introductoria de una página o sección (incluye textos y logos)  
+3. ¿Para qué sirve <nav>?
+Para crear un menú de enlaces de navegación tanto internos como externos a la página
+4. ¿Para qué sirve <main>?
+Para contener el contenido principal de la página 
+5. ¿Para qué sirve <section>?
+sirve para seccionar el contenido y al incluirle un id se puede usar con <nav> para crear un menú de contenido
+6. ¿Para qué sirve <footer>?
+Para poner un pide de página donde podemos poner info adiciónal
+7. ¿Qué ventaja tiene utilizar estas etiquetas en lugar de colocar todo el contenido directamente dentro de <body>?
+Permite una mejor organización de la información y facilita una mejor lectura para buscadores y tecnologías de asistencia .
+					Media
+1. ¿Para qué sirve controls?
+Sirve para mostrar los controles multimedia como reproducir, pausar, ajustar volumen y avanzar
+2. ¿Para qué sirve <source>?
+Sirve para especificar quee archivo multimedia se utilizara dentro de <audio> o <video> y permite ocupar diversos formatos de archivo manteniendo la compatibilidad 
+3. ¿Qué indica el atributo type?
+Es quien informa al navegador sobre que tipo o formato de recurso se esta usando
+4. ¿Qué diferencia existe entre <audio> y <video>?
+<audio> solo admite archivos de formatos como .mp3 y .wav como ejemplo y <video> .mp4, .mov entre otros
+5. ¿Qué otros atributos pueden utilizar estas etiquetas? Menciona al menos tres.
+Autoplay, loop, muted o preload.

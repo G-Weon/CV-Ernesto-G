@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel:ELSH@0..100&display=swap');
+
+body {
+    background-color: #FDF5E6;
+}
+
+header{
+    justify-content: center;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 8px;
+
+}
+
+header h1{
+    text-align:center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+nav{
+    font-family: Geist Pixel, sans-serif;
+    border: 4px solid black;
+    padding: 30px;
+    text-align: center;
+    width: 43%;
+    max-width: auto;
+    justify-content: center;
+    border-radius: 25px;
+    margin: auto;
+}
+.navinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #87CEEB;
+    padding: 1rem;
+    /* quita el diseño de los href segun*/
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.navinfo:hover{
+    margin-right: 5px;
+    font-weight: bold;
+    border: 2px solid none;
+    background-color: rgba(33, 213, 219, 0.20);
+    
+}
+
+#avatar img{
+    border: 3px solid black;
+    margin-top: 10px;   
+    /*margin-left:89%;
+
+    height: 200px;
+    */
+    width:  200px; 
+    float: right;
+
+}
+
+.textinfo > h2, #extras{
+    font-family: Geist Pixel, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 45%;
+    max-width: auto;
+    margin: auto
+}
+.textinfo > h2:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background-color: rgba(33, 213, 219,0.4);
+    border-radius: 20px;
+    border: solid none;
+    height: 60%;
+    transition: 0.3s;
+}
+#extras:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background-color: rgba(33, 213, 219,0.4);
+    border-radius: 20px;
+    border: solid none;
+    height: 60%;
+    transition: 0.3s;
+}
+
+.textinfo > p{
+    font-family:  Geist Pixel, sans-serif;
+    font-size: 30px;
+}
+h3{
+    font-family:  Geist Pixel, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    width: 45%;
+    max-width: auto;
+    margin: auto
+}
+ul, ol{
+    font-size: 27px;
+    font-family:  Geist Pixel, sans-serif;
+    margin: auto;
+    text-align: left;
+}
+h3:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgba(33, 213, 219,0.4);
+    border-radius: 20px;
+    border: solid none;
+    height: 60%;
+    transition: 0.3s;
+}
+
+.textinfo ul{
+    padding: 1rem;
+}
+p{
+    font-family: Geist Pixel, sans-serif;
+    font-size: 25px;
+    color: rgb(228, 69, 228);
+}
+.textinfo #nojala{
+    font-family: Geist Pixel, sans-serif;
+    font-size: 25px;
+}
+.git{
+    /*display: block sirve para que se puedan crear margenes en el bloque*/
+    display: block;
+
+    color: cadetblue ;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Geist Pixel, sans-serif;
+
+    margin: auto;
+    max-width: auto;
+    width: 60%;
+    
+    text-decoration: none;
+}
+#table{
+    font-family: Geist Pixel, sans-serif ;
+    border-collapse: separate;
+    border-radius: 30px;
+    border: 5px solid black;
+    border-radius: 15px;
+    border-spacing: 0;
+    overflow: hidden;
+}
+#table th, td{
+    border: 3px solid black;
+}
