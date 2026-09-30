@@ -35,7 +35,7 @@ nav{
     font-size: 25px;
     color: #87CEEB;
     padding: 1rem;
-    /* quita el diseño de los href segun*/
+    /* quita el diseño de los href*/
     text-decoration: none;
     transition: 0.3s;
     border-radius: 20px;
