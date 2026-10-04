@@ -33,16 +33,21 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: #87CEEB;
-    padding: 1rem;
+    /* ajusta el contorno y relleno */
+    margin: 10px;
+
+    padding: 5px 5px;
+    
+
     /* quita el diseño de los href*/
     text-decoration: none;
     transition: 0.3s;
     border-radius: 20px;
 }
 .navinfo:hover{
-    margin-right: 5px;
+    margin-right: 2px;
     font-weight: bold;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     background-color: rgba(33, 213, 219, 0.20);
     
 }
